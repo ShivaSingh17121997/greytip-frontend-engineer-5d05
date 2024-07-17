@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Cards.css'; // Import the CSS file
+import './Cards.css'; 
 
 export default function Cards() {
     const [cardData, setCardData] = useState({});

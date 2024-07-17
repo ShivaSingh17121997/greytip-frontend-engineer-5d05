@@ -3,7 +3,6 @@ import './Dashboard.css';
 import BarChart from './BarChart';
 import LineChart from './LineChart';
 // import GaugeChart from './GaugeChart'; 
-import PieChart from './PieChart';
 import Cards from './Cards';
 import FeedbackChart from './FeedbackChar';
 import SemicirculeaChart from './SemicircularChart';

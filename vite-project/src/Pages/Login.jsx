@@ -15,14 +15,12 @@ export default function Login() {
 
         axios.post("/api/v1/login/", { username: username, password: password, email: "", phone_number: "", input_code: 0 })
             .then((res) => {
-                console.log(res); // Log response data to see what the server returns
+                console.log(res);
                 alert("Login successful");
-                // Perform any necessary actions upon successful login, such as redirecting the user
                 navigate("/")
             })
             .catch((error) => {
-                console.log("Something went wrong:", error); // Log the error for debugging
-                // Handle error appropriately, such as displaying an error message to the user
+                console.log("Something went wrong:", error);
             });
     }
 
